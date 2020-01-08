@@ -17,6 +17,10 @@ namespace SingletonTest
 
         public static Singleton Instance { get { return lazy.Value; } }
 
+        public string Test()
+        {
+            return "Test!";
+        }
         //private static Singleton instance = null;
         //private static readonly object padlock = new object();
 
